@@ -8,7 +8,7 @@ csv file with only two columns:
 
 ## Workflow
 - read data with pandas
-- food name embedding with sentence_transformers
+- food name embedding with [sentence_transformers](https://github.com/UKPLab/sentence-transformers)
 - restaurant brand embedding using mean
 - reduce the embedding dimensionality with PCA
 - cluster the data with KNN
